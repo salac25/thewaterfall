@@ -1,0 +1,25 @@
+uuid: 3defeeda-7e3f-40c1-a03d-08db64a839bc
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:71c592f7-61ca-4b11-8327-3fa8a7ba8fc0'
+  module:
+    - block_content
+  theme:
+    - olivero
+id: olivero_newmembers
+theme: olivero
+region: sidebar
+weight: -7
+provider: null
+plugin: 'block_content:71c592f7-61ca-4b11-8327-3fa8a7ba8fc0'
+settings:
+  id: 'block_content:71c592f7-61ca-4b11-8327-3fa8a7ba8fc0'
+  label: 'Why Join ?'
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }
